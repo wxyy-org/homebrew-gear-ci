@@ -1,24 +1,24 @@
 class GearCi < Formula
   desc "Local CI/CD tool, compatible with GitHub Actions YAML format"
   homepage "https://github.com/wxyy-org/gear-ci"
-  version "2026.06.04.4"
+  version "2026.06.04.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/wxyy-org/gear-ci-release/releases/download/2026.06.04.4/gear-ci-darwin-arm64"
-      sha256 "d009770e77667abab12a5fdfcf59422baee405660c27f209fb1589817c14d2d5"
+      url "https://github.com/wxyy-org/gear-ci-release/releases/download/2026.06.04.5/gear-ci-darwin-arm64"
+      sha256 "7e494cf1a8da9d2cd0420f662b39c7d0822262e06eefc768ae286526d54cb614"
     end
     on_intel do
-      url "https://github.com/wxyy-org/gear-ci-release/releases/download/2026.06.04.4/gear-ci-darwin-amd64"
-      sha256 "4ffcdbd73e2f8a7f47be5b6fb43e66a50b5ffee632d41db14b376477ceca40fe"
+      url "https://github.com/wxyy-org/gear-ci-release/releases/download/2026.06.04.5/gear-ci-darwin-amd64"
+      sha256 "77a2a659d46f52ef94f3a9873287807d7e1aa1dcefa16e81e51b0ef9bc165de7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wxyy-org/gear-ci-release/releases/download/2026.06.04.4/gear-ci-linux-amd64"
-      sha256 "c7e65989ad6dea9fa087d96b8453540b972db0710b74eaa707b5a4dfd4f409c4"
+      url "https://github.com/wxyy-org/gear-ci-release/releases/download/2026.06.04.5/gear-ci-linux-amd64"
+      sha256 "2a099dfdfdbaaadf6116adb713f9c5f6db604efe686e6b6cf31e66d75aeeb827"
     end
   end
 
